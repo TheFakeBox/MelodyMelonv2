@@ -62,7 +62,7 @@ module.exports = {
            { name: '🎵 Now Playing', value: 'Display the currently playing song information' },
           { name: '🔊 Volume', value: 'Adjust the music volume [ hearing at high volumes is risky ]' },
         ) 
-       .setImage('https://cdn.discordapp.com/attachments/1236414696425259099/1236417774759182427/giphy.gif?ex=6637ef49&is=66369dc9&hm=54a07e21e1a845152d26ea76923ccd57af75763bdfa656df3995efaa26770ba0&')
+       .setImage('https://cdn.discordapp.com/attachments/1004341381784944703/1165201249331855380/RainbowLine.gif?ex=66845f7a&is=66830dfa&hm=329ab5cf9e921ea8d70583f76c0a987319fc59eedea50265c4317c5f5d81a1a3&')
       const button1 = new ButtonBuilder()
         .setLabel('My Online Store')
         .setURL('https://www.etsy.com/shop/redbottees/?etsrc=sdt')
