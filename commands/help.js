@@ -49,7 +49,7 @@ module.exports = {
           { name: '🔀 Shuffle', value: 'Shuffle the songs in queue' },
           { name: '📃 playlist', value: 'manage the playlists' }
         )
-        .setImage(`https://cdn.discordapp.com/attachments/1004341381784944703/1165201249331855380/RainbowLine.gif?ex=654f37ba&is=653cc2ba&hm=648a2e070fab36155f4171962e9c3bcef94857aca3987a181634837231500177&`); 
+        .setImage(`https://cdn.discordapp.com/attachments/1236414696425259099/1257523711968542720/giphy.gif?ex=6684b7b8&is=66836638&hm=c43e4918378fa49335ee22f6e2f9b07420bfe6ed6d706fc275be595055bb1b9f&`); 
 
       const basicCommandsEmbed = new EmbedBuilder()
         .setColor(client.config.embedColor)
