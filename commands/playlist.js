@@ -116,7 +116,7 @@ module.exports = {
         if (playlist?.length > 0) {
           for (let i = 0; i < playlist.length; i++) {
             if (playlist[i]?.playlist?.filter(p => p.name === name)?.length > 0) {
-              return interaction.reply({ content: '⚠️ Album already Exitst!', ephemeral: true }).catch(e => { })
+              return interaction.reply({ content: '⚠️ Album already Exists!', ephemeral: true }).catch(e => { })
             }
           }
         }
