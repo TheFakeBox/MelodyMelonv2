@@ -484,7 +484,7 @@ await interaction.editReply({
               .setThumbnail(interaction.user.displayAvatarURL({ size: 2048, dynamic: true }))
               .setColor(client.config.embedColor)
               .setDescription('Timeout Use command again!'.replace("{name}", name))
-              .setFooter({ text: 'YouTube - RTX GAMING' })
+              .setFooter({ text: 'MelodyMelon - TheRealBox' })
             return interaction.editReply({ embeds: [embed], components: [button] }).catch(e => { })
 
           })
